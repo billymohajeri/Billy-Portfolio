@@ -13,9 +13,9 @@ function formInputListens(inputType) {
   });
 }
 
-function setFormInput(inputType) {
+const setFormInput = (inputType) => {
   formReloads.elements[inputType].value = JSON.parse(localStorage['form-data'])[inputType];
-}
+};
 
 window.addEventListener('load', () => {
   if (localStorage.getItem('form-data') === null) {
