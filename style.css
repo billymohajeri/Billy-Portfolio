@@ -11,6 +11,7 @@ body {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .tool-bar {
@@ -1686,7 +1687,7 @@ ul.social-media2 {
     text-align: left;
     border-left-width: 130px;
     margin-left: 130px;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 72px;
     width: 500px;
     padding-top: 50px;
