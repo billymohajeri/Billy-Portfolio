@@ -98,6 +98,7 @@ a {
   background-position: right bottom;
   background-repeat: no-repeat;
   background-position-y: 125%;
+  overflow: hidden;
 }
 
 .hello {
@@ -227,6 +228,7 @@ ul {
     background-position: right bottom;
     background-repeat: no-repeat;
     background-position-y: 80%;
+    overflow: hidden;
   }
 
   .content-text {
