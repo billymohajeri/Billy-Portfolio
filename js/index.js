@@ -18,72 +18,149 @@ navItems.forEach((navItem) => {
 const cardsArr = [
   {
     name: 'card1',
-    image: 'Img/P_img/app_screen_shoot_popup.png',
-    title: 'Todo list',
-    text: 'This app is a powerful tool! Here you can add any task you need to complete, and you can update and delete any task as you need!',
+    image: 'assets/desktop/budget-app-project-desktop.png',
+    title: 'Budget app',
+    text: 'The budget app is a mobile web app where you can manage your budget: users can add categories, show categories, add transactions, and show transactions for each category. Built with Ruby on Rails and PostgreSQL.',
     buttons: {
-      langs: ['HTML', 'CSS', 'JavaScript', 'Webpack'],
-      other: [['See Live', 'https://artbsc1992.github.io/todo-list/dist/', 'Img/see-project-icon.svg'], ['See Source', 'https://github.com/Artbsc1992/todo-list', 'Img/source-icon.svg']],
+      langs: ['HTML', 'CSS', 'Ruby on Rails', 'PostgreSQL'],
+      other: [
+        [
+          'See Live ',
+          'https://budgetapp-azzb.onrender.com/',
+          'assets/common/live-button.svg',
+        ],
+        [
+          'See Source ',
+          'https://github.com/billymohajeri/Budget-App',
+          'assets/common/source-button.svg',
+        ],
+      ],
     },
   },
   {
     name: 'card2',
     image: 'desktop-img/Project1.jpg',
     title: 'Professional Art Printing Data',
-    text: 'A daily selection of privately personalized reads; no accounts or sign-ups required; has been the industry\'s standard',
+    text: "A daily selection of privately personalized reads; no accounts or sign-ups required; has been the industry's standard",
     buttons: {
       langs: ['HTML', 'Bootstrap', 'Ruby on Rails'],
-      other: [['See Live', 'https://artbsc1992.github.io/My-Portfolio/', 'Img/see-project-icon.svg'], ['See Source', 'https://github.com/Artbsc1992/My-Portfolio', 'Img/source-icon.svg']],
+      other: [
+        [
+          'See Live',
+          'https://artbsc1992.github.io/My-Portfolio/',
+          'Img/see-project-icon.svg',
+        ],
+        [
+          'See Source',
+          'https://github.com/Artbsc1992/My-Portfolio',
+          'Img/source-icon.svg',
+        ],
+      ],
     },
   },
   {
     name: 'card3',
     image: 'desktop-img/project2.jpg',
     title: 'Object-Oriented Programming',
-    text: 'A daily selection of privately personalized reads; no accounts or sign-ups required; has been the industry\'s standard',
+    text: "A daily selection of privately personalized reads; no accounts or sign-ups required; has been the industry's standard",
     buttons: {
       langs: ['CSS', 'Bootstrap', 'Ruby on Rails'],
-      other: [['See Live', 'https://artbsc1992.github.io/My-Portfolio/', 'Img/see-project-icon.svg'], ['See Source', 'https://github.com/Artbsc1992/My-Portfolio', 'Img/source-icon.svg']],
+      other: [
+        [
+          'See Live',
+          'https://artbsc1992.github.io/My-Portfolio/',
+          'Img/see-project-icon.svg',
+        ],
+        [
+          'See Source',
+          'https://github.com/Artbsc1992/My-Portfolio',
+          'Img/source-icon.svg',
+        ],
+      ],
     },
   },
   {
     name: 'card4',
     image: 'desktop-img/project3.jpg',
     title: 'Obsess No More With Your HTML',
-    text: 'A daily selection of privately personalized reads; no accounts or sign-ups required; has been the industry\'s standard',
+    text: "A daily selection of privately personalized reads; no accounts or sign-ups required; has been the industry's standard",
     buttons: {
       langs: ['python', 'Bootstrap', 'Ruby on Rails'],
-      other: [['See Live', 'https://artbsc1992.github.io/My-Portfolio/', 'Img/see-project-icon.svg'], ['See Source', 'https://github.com/Artbsc1992/My-Portfolio', 'Img/source-icon.svg']],
+      other: [
+        [
+          'See Live',
+          'https://artbsc1992.github.io/My-Portfolio/',
+          'Img/see-project-icon.svg',
+        ],
+        [
+          'See Source',
+          'https://github.com/Artbsc1992/My-Portfolio',
+          'Img/source-icon.svg',
+        ],
+      ],
     },
   },
   {
     name: 'card5',
     image: 'desktop-img/Project1.jpg',
     title: 'Ruby Just Got Crazy',
-    text: 'A daily selection of privately personalized reads; no accounts or sign-ups required; has been the industry\'s standard',
+    text: "A daily selection of privately personalized reads; no accounts or sign-ups required; has been the industry's standard",
     buttons: {
       langs: ['HTML', 'Bootstrap', 'Ruby on Rails'],
-      other: [['See Live', 'https://artbsc1992.github.io/My-Portfolio/', 'Img/see-project-icon.svg'], ['See Source', 'https://github.com/Artbsc1992/My-Portfolio', 'Img/source-icon.svg']],
+      other: [
+        [
+          'See Live',
+          'https://artbsc1992.github.io/My-Portfolio/',
+          'Img/see-project-icon.svg',
+        ],
+        [
+          'See Source',
+          'https://github.com/Artbsc1992/My-Portfolio',
+          'Img/source-icon.svg',
+        ],
+      ],
     },
   },
   {
     name: 'card6',
     image: 'desktop-img/project2.jpg',
     title: 'Functional Programming? YES',
-    text: 'A daily selection of privately personalized reads; no accounts or sign-ups required; has been the industry\'s standard',
+    text: "A daily selection of privately personalized reads; no accounts or sign-ups required; has been the industry's standard",
     buttons: {
       langs: ['HTML', 'Bootstrap', 'Ruby on Rails'],
-      other: [['See Live', 'https://artbsc1992.github.io/My-Portfolio/', 'Img/see-project-icon.svg'], ['See Source', 'https://github.com/Artbsc1992/My-Portfolio', 'Img/source-icon.svg']],
+      other: [
+        [
+          'See Live',
+          'https://artbsc1992.github.io/My-Portfolio/',
+          'Img/see-project-icon.svg',
+        ],
+        [
+          'See Source',
+          'https://github.com/Artbsc1992/My-Portfolio',
+          'Img/source-icon.svg',
+        ],
+      ],
     },
   },
   {
     name: 'card7',
     image: 'desktop-img/project3.jpg',
     title: 'The Rabbit-Hole To End All Rabbit-Holes Just Got Deep!',
-    text: 'A daily selection of privately personalized reads; no accounts or sign-ups required; has been the industry\'s standard',
+    text: "A daily selection of privately personalized reads; no accounts or sign-ups required; has been the industry's standard",
     buttons: {
       langs: ['HTML', 'Bootstrap', 'Ruby on Rails'],
-      other: [['See Live', 'https://artbsc1992.github.io/My-Portfolio/', 'Img/see-project-icon.svg'], ['See Source', 'https://github.com/Artbsc1992/My-Portfolio', 'Img/source-icon.svg']],
+      other: [
+        [
+          'See Live',
+          'https://artbsc1992.github.io/My-Portfolio/',
+          'Img/see-project-icon.svg',
+        ],
+        [
+          'See Source',
+          'https://github.com/Artbsc1992/My-Portfolio',
+          'Img/source-icon.svg',
+        ],
+      ],
     },
   },
 ];
@@ -132,7 +209,7 @@ const template = (obj) => {
     const [a, b, c] = btn;
     const img = document.createElement('img');
     button.appendChild(document.createTextNode(a));
-    button.setAttribute('onclick', `window.location.href="${b}"`);
+    button.setAttribute('onclick', `window.open("${b}", "_blank")`);
     img.setAttribute('src', c);
     button.appendChild(img);
     button.setAttribute('id', 'button1');

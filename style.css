@@ -1960,7 +1960,7 @@ ul.social-media2 {
 }
 
 .cross-menu2 {
-  background-image: url('Img/x-menu.png');
+  background-image: url('assets/desktop/x.svg');
   background-size: contain;
   background-repeat: no-repeat;
   width: 16px;
@@ -2033,6 +2033,8 @@ ul.social-media2 {
     grid-area: ptext;
     max-width: 360px;
     grid-row-end: auto;
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .preview-buttons {
