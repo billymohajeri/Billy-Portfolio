@@ -779,6 +779,9 @@ ul {
   padding-left: 15px;
   margin-bottom: 0;
   margin-top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  bac
 }
 
 .list-4 {
@@ -1225,7 +1228,7 @@ ul {
         rgba(38, 38, 38, 0) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
       ),
-      url(desktop-img/project2.jpg);
+      url('assets/desktop/leaderboard_app_screenshot.png');
   }
 
   .button3 {
@@ -1237,7 +1240,10 @@ ul {
   }
 
   .card3:hover {
-    background-image: url(desktop-img/project2.jpg);
+    background-image: url('assets/desktop/leaderboard_app_screenshot.png');
+    background-position: -15px -140px;
+    background-size: 900px;
+    background-repeat: no-repeat;
   }
 
   .card3:hover > .grid3 {
@@ -1254,7 +1260,7 @@ ul {
         rgba(38, 38, 38, 0) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
       ),
-      url(desktop-img/project3.jpg);
+      url('assets/desktop/awesome_books_app_screenshot.png');
   }
 
   .button4 {
@@ -1266,7 +1272,10 @@ ul {
   }
 
   .card4:hover {
-    background-image: url(desktop-img/project3.jpg);
+    background-image: url('assets/desktop/awesome_books_app_screenshot.png');
+    background-position: -130px -50px;
+    background-size: 650px;
+    background-repeat: no-repeat;
   }
 
   .card4:hover > .grid4 {

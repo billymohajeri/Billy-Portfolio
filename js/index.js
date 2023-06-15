@@ -43,7 +43,7 @@ const cardsArr = [
     title: 'To Do list',
     text: 'The To-do list is an app for managing your own daily tasks: users can add a to-do, list all to-dos, mark to-dos as done, and delete to-dos. Built with HTML5, CSS3, JavaScript, and Webpack.',
     buttons: {
-      langs: ['HTML', 'CSS', 'Webpack', 'JavaScript'],
+      langs: ['HTML', 'CSS', 'JavaScript', 'Webpack'],
       other: [
         [
           'See Live ',
@@ -60,42 +60,42 @@ const cardsArr = [
   },
   {
     name: 'card3',
-    image: 'desktop-img/project2.jpg',
-    title: 'Object-Oriented Programming',
-    text: "A daily selection of privately personalized reads; no accounts or sign-ups required; has been the industry's standard",
+    image: 'assets/desktop/leaderboard_app_screenshot.png',
+    title: 'Leaderboard',
+    text: 'The leaderboard saves and displays scores submitted by different players. It also allows you to submit your score. All data is preserved by an external API. Built with HTML5, CSS3, JavaScript, and Webpack.',
     buttons: {
-      langs: ['CSS', 'Bootstrap', 'Ruby on Rails'],
+      langs: ['HTML', 'CSS', 'JavaScript', 'Webpack'],
       other: [
         [
-          'See Live',
-          'https://artbsc1992.github.io/My-Portfolio/',
-          'Img/see-project-icon.svg',
+          'See Live ',
+          'https://billymohajeri.github.io/Leaderboard/dist/',
+          'assets/common/live-button.svg',
         ],
         [
-          'See Source',
-          'https://github.com/Artbsc1992/My-Portfolio',
-          'Img/source-icon.svg',
+          'See Source ',
+          'https://github.com/billymohajeri/Leaderboard',
+          'assets/common/source-button.svg',
         ],
       ],
     },
   },
   {
     name: 'card4',
-    image: 'desktop-img/project3.jpg',
-    title: 'Obsess No More With Your HTML',
-    text: "A daily selection of privately personalized reads; no accounts or sign-ups required; has been the industry's standard",
+    image: 'assets/desktop/awesome_books_app_screenshot.png',
+    title: 'Awesome Books',
+    text: 'The Awesome Books is a website that allows users to add/remove books from a list. The list of current books generates dynamically by modifying the DOM. Built with HTML5, CSS3, and JavaScript.',
     buttons: {
-      langs: ['python', 'Bootstrap', 'Ruby on Rails'],
+      langs: ['HTML', 'CSS', 'JavaScript'],
       other: [
         [
-          'See Live',
-          'https://artbsc1992.github.io/My-Portfolio/',
-          'Img/see-project-icon.svg',
+          'See Live ',
+          'https://billymohajeri.github.io/Awesome-Books-With-ES6/',
+          'assets/common/live-button.svg',
         ],
         [
-          'See Source',
-          'https://github.com/Artbsc1992/My-Portfolio',
-          'Img/source-icon.svg',
+          'See Source ',
+          'https://github.com/billymohajeri/Awesome-Books-With-ES6',
+          'assets/common/source-button.svg',
         ],
       ],
     },
@@ -109,14 +109,14 @@ const cardsArr = [
       langs: ['HTML', 'Bootstrap', 'Ruby on Rails'],
       other: [
         [
-          'See Live',
-          'https://artbsc1992.github.io/My-Portfolio/',
-          'Img/see-project-icon.svg',
+          'See Live ',
+          '',
+          'assets/common/live-button.svg',
         ],
         [
-          'See Source',
-          'https://github.com/Artbsc1992/My-Portfolio',
-          'Img/source-icon.svg',
+          'See Source ',
+          '',
+          'assets/common/source-button.svg',
         ],
       ],
     },
@@ -130,14 +130,14 @@ const cardsArr = [
       langs: ['HTML', 'Bootstrap', 'Ruby on Rails'],
       other: [
         [
-          'See Live',
-          'https://artbsc1992.github.io/My-Portfolio/',
-          'Img/see-project-icon.svg',
+          'See Live ',
+          '',
+          'assets/common/live-button.svg',
         ],
         [
-          'See Source',
-          'https://github.com/Artbsc1992/My-Portfolio',
-          'Img/source-icon.svg',
+          'See Source ',
+          '',
+          'assets/common/source-button.svg',
         ],
       ],
     },
@@ -151,14 +151,14 @@ const cardsArr = [
       langs: ['HTML', 'Bootstrap', 'Ruby on Rails'],
       other: [
         [
-          'See Live',
-          'https://artbsc1992.github.io/My-Portfolio/',
-          'Img/see-project-icon.svg',
+          'See Live ',
+          '',
+          'assets/common/live-button.svg',
         ],
         [
-          'See Source',
-          'https://github.com/Artbsc1992/My-Portfolio',
-          'Img/source-icon.svg',
+          'See Source ',
+          '',
+          'assets/common/source-button.svg',
         ],
       ],
     },
