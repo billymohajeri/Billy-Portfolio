@@ -621,7 +621,7 @@ ul {
 .card3 {
   display: grid;
   grid-template-columns: auto;
-  background-image: url(Img/P_img/photo2.png);
+  background-image: url('assets/desktop/leaderboard_app_screenshot.png');
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: normal;
@@ -732,7 +732,7 @@ ul {
 .card4 {
   display: grid;
   grid-template-columns: auto;
-  background-image: url(Img/P_img/photo2.png);
+  background-image: url('assets/desktop/awesome_books_app_screenshot.png');
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: normal;
@@ -845,7 +845,7 @@ ul {
 .card5 {
   display: grid;
   grid-template-columns: auto;
-  background-image: url(Img/P_img/photo2.png);
+  background-image: url('assets/desktop/cottage_booking_app_screenshot.png');
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: normal;
@@ -956,7 +956,7 @@ ul {
 .card6 {
   display: grid;
   grid-template-columns: auto;
-  background-image: url(Img/P_img/photo2.png);
+  background-image: url('assets/desktop/star_wars_movies_collection_app_screenshot.png');
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: normal;
@@ -1067,7 +1067,7 @@ ul {
 .card7 {
   display: grid;
   grid-template-columns: auto;
-  background-image: url(Img/P_img/photo2.png);
+  background-image: url('assets/desktop/iranian_film_week_2023_app_screenshot.png');
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: normal;
