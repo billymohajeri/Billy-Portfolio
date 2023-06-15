@@ -138,7 +138,7 @@ const cardsArr = [
     name: 'card7',
     image: 'assets/desktop/iranian_film_week_2023_app_screenshot.png',
     title: 'Iranian Film Week 2023',
-    text: 'Iranian Film Week 2023 is my first capstone project based on an online website for a conference. But I personalize the content for a film review week.',
+    text: 'Iranian Film Week 2023 is my first capstone project based on an online website for a conference, and I personalized the content for film review week.',
     buttons: {
       langs: ['HTML', 'CSS', 'JavaScript'],
       other: [
