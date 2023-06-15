@@ -14,6 +14,8 @@ body {
   padding: 0%;
   box-sizing: border-box;
   overflow-x: hidden;
+  overflow-y: scroll;
+  height: 100vh;
 }
 
 .tool-bar {
@@ -184,6 +186,8 @@ ul {
   }
 
   .tool-bar {
+    top: 0;
+    position: sticky;
     width: 100%;
     height: 72px;
     min-width: 769px;
