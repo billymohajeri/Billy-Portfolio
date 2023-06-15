@@ -781,7 +781,6 @@ ul {
   margin-top: 0;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  bac
 }
 
 .list-4 {
@@ -1292,7 +1291,9 @@ ul {
         rgba(38, 38, 38, 0) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
       ),
-      url(desktop-img/Project1.jpg);
+      url('assets/desktop/cottage_booking_app_screenshot.png');
+    background-size: 2700px;
+    background-position: -400px;
   }
 
   .button5 {
@@ -1304,7 +1305,10 @@ ul {
   }
 
   .card5:hover {
-    background-image: url(desktop-img/Project1.jpg);
+    background-image: url('assets/desktop/cottage_booking_app_screenshot.png');
+    background-position: 0 0;
+    background-size: 650px;
+    background-repeat: no-repeat;
   }
 
   .card5:hover > .grid5 {

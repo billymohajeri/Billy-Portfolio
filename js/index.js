@@ -102,20 +102,20 @@ const cardsArr = [
   },
   {
     name: 'card5',
-    image: 'desktop-img/Project1.jpg',
-    title: 'Ruby Just Got Crazy',
-    text: "A daily selection of privately personalized reads; no accounts or sign-ups required; has been the industry's standard",
+    image: 'assets/desktop/cottage_booking_app_screenshot.png',
+    title: 'Cottage Booking',
+    text: 'Cottage Booking is an app that helps users find cottages and reserve them. The app allows users to add new cottages, remove cottages, make reservations. Built with Ruby on Rails, React, Redux, and PostgreSQL.',
     buttons: {
-      langs: ['HTML', 'Bootstrap', 'Ruby on Rails'],
+      langs: ['Ruby', 'Rails', 'React', 'Redux'],
       other: [
         [
           'See Live ',
-          '',
+          'https://final-group-capstone-frontend-git-deploy-billymohajeri.vercel.app/',
           'assets/common/live-button.svg',
         ],
         [
           'See Source ',
-          '',
+          'https://github.com/billymohajeri/Final-Group-Capstone-Backend',
           'assets/common/source-button.svg',
         ],
       ],
@@ -129,16 +129,8 @@ const cardsArr = [
     buttons: {
       langs: ['HTML', 'Bootstrap', 'Ruby on Rails'],
       other: [
-        [
-          'See Live ',
-          '',
-          'assets/common/live-button.svg',
-        ],
-        [
-          'See Source ',
-          '',
-          'assets/common/source-button.svg',
-        ],
+        ['See Live ', '', 'assets/common/live-button.svg'],
+        ['See Source ', '', 'assets/common/source-button.svg'],
       ],
     },
   },
@@ -150,16 +142,8 @@ const cardsArr = [
     buttons: {
       langs: ['HTML', 'Bootstrap', 'Ruby on Rails'],
       other: [
-        [
-          'See Live ',
-          '',
-          'assets/common/live-button.svg',
-        ],
-        [
-          'See Source ',
-          '',
-          'assets/common/source-button.svg',
-        ],
+        ['See Live ', '', 'assets/common/live-button.svg'],
+        ['See Source ', '', 'assets/common/source-button.svg'],
       ],
     },
   },
