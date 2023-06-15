@@ -39,21 +39,21 @@ const cardsArr = [
   },
   {
     name: 'card2',
-    image: 'desktop-img/Project1.jpg',
-    title: 'Professional Art Printing Data',
-    text: "A daily selection of privately personalized reads; no accounts or sign-ups required; has been the industry's standard",
+    image: 'assets/desktop/todo-list-project-desktop.png',
+    title: 'To Do list',
+    text: 'The To-do list is an app for managing your own daily tasks: users can add a to-do, list all to-dos, mark to-dos as done, and delete to-dos. Built with HTML5, CSS3, JavaScript, and Webpack.',
     buttons: {
-      langs: ['HTML', 'Bootstrap', 'Ruby on Rails'],
+      langs: ['HTML', 'CSS', 'Webpack', 'JavaScript'],
       other: [
         [
-          'See Live',
-          'https://artbsc1992.github.io/My-Portfolio/',
-          'Img/see-project-icon.svg',
+          'See Live ',
+          'https://billymohajeri.github.io/To-Do-list/dist/',
+          'assets/common/live-button.svg',
         ],
         [
-          'See Source',
-          'https://github.com/Artbsc1992/My-Portfolio',
-          'Img/source-icon.svg',
+          'See Source ',
+          'https://github.com/billymohajeri/To-Do-list',
+          'assets/common/source-button.svg',
         ],
       ],
     },

@@ -106,7 +106,9 @@ a {
   height: 124px;
   left: 24px;
   top: 120px;
-  color: #ff6b00;
+
+  /* color: #ff6b00; */
+  color: #f55800;
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: 400;
@@ -129,7 +131,9 @@ a {
   font-weight: 700;
   font-size: 24px;
   line-height: 32px;
-  color: #fff5e1;
+
+  /* color: #fff5e1; */
+  color: white;
   align-items: center;
   flex: none;
   order: 1;
@@ -407,7 +411,7 @@ ul {
 .card2 {
   display: grid;
   grid-template-columns: auto;
-  background-image: url(Img/P_img/photo2.png);
+  background-image: url('assets/desktop/todo-list-project-desktop.png');
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: normal;
@@ -1189,7 +1193,7 @@ ul {
         rgba(38, 38, 38, 0) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
       ),
-      url(desktop-img/Project1.jpg);
+      url('assets/desktop/todo-list-project-desktop.png');
   }
 
   .button2 {
@@ -1201,7 +1205,10 @@ ul {
   }
 
   .card2:hover {
-    background-image: url(desktop-img/Project1.jpg);
+    background-image: url('assets/desktop/todo-list-project-desktop.png');
+    background-position: center;
+    background-size: 800px;
+    background-repeat: no-repeat;
   }
 
   .card2:hover > .grid2 {
