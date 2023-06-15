@@ -123,14 +123,14 @@ const cardsArr = [
   },
   {
     name: 'card6',
-    image: 'desktop-img/project2.jpg',
-    title: 'Functional Programming? YES',
-    text: "A daily selection of privately personalized reads; no accounts or sign-ups required; has been the industry's standard",
+    image: 'assets/desktop/star_wars_movies_collection_app_screenshot.png',
+    title: 'StarWars Movies Collection',
+    text: 'The Star Wars Movies Collection is an app that pulls from the API and shows movies details. Users can like movies and add comments for them. Built with HTML5, CSS3, JavaScript, Jest and Webpack.',
     buttons: {
-      langs: ['HTML', 'Bootstrap', 'Ruby on Rails'],
+      langs: ['HTML', 'CSS', 'JavaScript', 'Jest'],
       other: [
-        ['See Live ', '', 'assets/common/live-button.svg'],
-        ['See Source ', '', 'assets/common/source-button.svg'],
+        ['See Live ', 'https://billymohajeri.github.io/Capstone-Project-02/dist/', 'assets/common/live-button.svg'],
+        ['See Source ', 'https://github.com/billymohajeri/Capstone-Project-02', 'assets/common/source-button.svg'],
       ],
     },
   },

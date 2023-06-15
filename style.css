@@ -1325,7 +1325,7 @@ ul {
         rgba(38, 38, 38, 0) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
       ),
-      url(desktop-img/project2.jpg);
+      url('assets/desktop/star_wars_movies_collection_app_screenshot.png');
   }
 
   .button6 {
@@ -1337,7 +1337,7 @@ ul {
   }
 
   .card6:hover {
-    background-image: url(desktop-img/project2.jpg);
+    background-image: url('assets/desktop/star_wars_movies_collection_app_screenshot.png');
   }
 
   .card6:hover > .grid6 {
