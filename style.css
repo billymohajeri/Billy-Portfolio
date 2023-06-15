@@ -1355,7 +1355,7 @@ ul {
         rgba(38, 38, 38, 0) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
       ),
-      url(desktop-img/project3.jpg);
+      url('assets/desktop/iranian_film_week_2023_app_screenshot.png');
   }
 
   .button7 {
@@ -1367,7 +1367,10 @@ ul {
   }
 
   .card7:hover {
-    background-image: url(desktop-img/project3.jpg);
+    background-image: url('assets/desktop/iranian_film_week_2023_app_screenshot.png');
+    background-position: -120px 0;
+    background-size: 800px;
+    background-repeat: no-repeat;
   }
 
   .card7:hover > .grid7 {

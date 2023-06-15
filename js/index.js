@@ -136,14 +136,14 @@ const cardsArr = [
   },
   {
     name: 'card7',
-    image: 'desktop-img/project3.jpg',
-    title: 'The Rabbit-Hole To End All Rabbit-Holes Just Got Deep!',
-    text: "A daily selection of privately personalized reads; no accounts or sign-ups required; has been the industry's standard",
+    image: 'assets/desktop/iranian_film_week_2023_app_screenshot.png',
+    title: 'Iranian Film Week 2023',
+    text: 'Iranian Film Week 2023 is my first capstone project based on an online website for a conference. But I personalize the content for a film review week.',
     buttons: {
-      langs: ['HTML', 'Bootstrap', 'Ruby on Rails'],
+      langs: ['HTML', 'CSS', 'JavaScript'],
       other: [
-        ['See Live ', '', 'assets/common/live-button.svg'],
-        ['See Source ', '', 'assets/common/source-button.svg'],
+        ['See Live ', 'https://billymohajeri.github.io/Capstone-Project-01/', 'assets/common/live-button.svg'],
+        ['See Source ', 'https://github.com/billymohajeri/Capstone-Project-01', 'assets/common/source-button.svg'],
       ],
     },
   },
