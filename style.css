@@ -14,8 +14,13 @@ body {
   padding: 0%;
   box-sizing: border-box;
   overflow-x: hidden;
+}
+
+.whole-container {
   overflow-y: scroll;
   height: 100vh;
+
+  /* overflow-x: hidden; */
 }
 
 .tool-bar {
