@@ -39,7 +39,7 @@
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**Billy Portfolio** is a website where you can find examples of my work, along with information about my technical and professional qualifications, as well as how to get in touch with me.
 
 ## 🛠 Built With <a name="built-with"></a>
 
