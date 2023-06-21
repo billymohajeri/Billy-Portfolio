@@ -176,19 +176,11 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Billy Mohajeri**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@BillyMohajeri](https://github.com/billymohajeri)
+- Twitter: [@BillyMohajeri](https://twitter.com/BillyMohajeri)
+- LinkedIn: [@BillyMohajeri](https://www.linkedin.com/in/billymohajeri)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -198,8 +190,8 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
+- [ ] **Add like for projects**
+- [ ] **Add comment for projects**
 - [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
