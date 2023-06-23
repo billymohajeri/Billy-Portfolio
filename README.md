@@ -1,8 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="" alt="logo" width="140"  height="auto" />
+  <!-- <img src="" alt="logo" width="140"  height="auto" /> -->
   <br/>
 
   <h3><b>Billy's Portfolio</b></h3>
@@ -37,15 +36,11 @@
 
 # 📖 Billy Portfolio <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
 **Billy Portfolio** is a website where you can find examples of my work, along with information about my technical and professional qualifications, as well as how to get in touch with me.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -80,55 +75,39 @@
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
-
-In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
+Using HTTPS:
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/billymohajeri/Billy-Portfolio.git
+  cd Billy-Portfolio
 ```
---->
+
+Using SSH:
+```sh
+  git clone git@github.com:billymohajeri/Billy-Portfolio.git
+  cd Billy-Portfolio
+```
+
+Using GitHub CLI:
+```sh
+  gh repo clone billymohajeri/Billy-Portfolio
+  cd Billy-Portfolio
+```
+
+### Prerequisites
+
+In order to run this project you need:
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
 ### Usage
 
 To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,8 +126,6 @@ Example command:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **Add like for projects**
 - [ ] **Add comment for projects**
@@ -169,8 +146,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -178,8 +153,6 @@ If you like this project...
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank...
 
