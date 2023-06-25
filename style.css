@@ -1458,6 +1458,7 @@ ul {
 
 @media screen and (min-width: 768px) {
   .card8 {
+    background-color: #262626;
     display: flex;
     flex-direction: column;
     width: auto;
@@ -1498,8 +1499,7 @@ ul {
   background-image: url(assets/desktop/line.png);
   background-position: center top;
   background-repeat: no-repeat;
-
-  /* background-color: #1c1a19; */
+  background-color: #1c1a19;
 }
 
 .skills {
@@ -1539,7 +1539,7 @@ ul {
     background-image: url(assets/desktop/line.png);
     background-position: center top;
     background-size: 1050px 1px;
-    background-color: #1c1a19;
+    background-color: #262626;
   }
 
   .skills {
