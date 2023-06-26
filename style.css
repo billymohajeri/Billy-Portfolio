@@ -96,7 +96,7 @@ a {
   background-color: #1c1a19;
   justify-content: center;
   align-items: center;
-  background-image: url(Img/design.png);
+  /* background-image: url(assets/desktop/background2.png); */
   background-position: right bottom;
   background-repeat: no-repeat;
   background-position-y: 125%;
@@ -1390,10 +1390,10 @@ ul {
   height: 700px;
   padding-left: 0;
   background-image: url(assets/desktop/about-me-desktop.svg);
-  background-size: 10%;
+  background-size: 45vw;
   background-position: right bottom;
   background-repeat: no-repeat;
-  background-position-y: 10%;
+  background-position-y: 300px;
   background-position-x: right;
   margin-top: -34px;
 }
