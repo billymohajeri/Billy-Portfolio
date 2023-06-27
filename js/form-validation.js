@@ -8,15 +8,16 @@ const emailInvMsg = 'Email is invalid!';
 const commentsReqMsg = 'What are you trying to say?';
 const commentsInvMsg = 'Your message is too long or too short!';
 
-function validateName(name, reqmsg) {
+const validateName = (name, reqmsg) => {
   if (name.length > 0) {
     return [true, ''];
   }
   return [false, reqmsg];
-}
+};
 
 function validateEmail(email, reqmsg, invmsg) {
-  const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@(([[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-z\-0-9]+\.)+[a-z]{2,}))$/;
+  const emailRegex =
+    /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@(([[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-z\-0-9]+\.)+[a-z]{2,}))$/;
   if (email.length > 5) {
     if (emailRegex.test(email.trim()) && email.toLowerCase() === email) {
       return [true, ''];
@@ -37,10 +38,19 @@ function validateComments(comments, reqmsg, invmsg) {
 }
 
 form.addEventListener('submit', (event) => {
-  const nameValid = validateName(form.elements['full-name'].value, nameErrorMsg);
-  const emailValid = validateEmail(form.elements.email.value, emailReqMsg, emailInvMsg);
+  const nameValid = validateName(
+    form.elements['full-name'].value,
+    nameErrorMsg
+  );
+  const emailValid = validateEmail(
+    form.elements.email.value,
+    emailReqMsg,
+    emailInvMsg
+  );
   const commentsValid = validateComments(
-    form.elements.msg.value, commentsReqMsg, commentsInvMsg,
+    form.elements.msg.value,
+    commentsReqMsg,
+    commentsInvMsg
   );
   if (nameValid[0] && emailValid[0] && commentsValid[0]) {
     smallMsg.innerHTML = 'Yay, thanks for contacting me!';
@@ -57,7 +67,9 @@ form.addEventListener('submit', (event) => {
     smallMsg.classList.add('unsuccess');
     event.preventDefault();
     const [isNameValid, isEmailValid, isCommentsValid] = [
-      nameValid[1], emailValid[1], commentsValid[1],
+      nameValid[1],
+      emailValid[1],
+      commentsValid[1],
     ];
     if (!nameValid[0]) {
       smallMsg.innerHTML = isNameValid;
@@ -69,22 +81,26 @@ form.addEventListener('submit', (event) => {
       smallMsg.innerHTML = '';
     }
     if (!emailValid[0]) {
-      smallMsg.innerHTML = smallMsg.innerHTML === '' ? isEmailValid : smallMsg.innerHTML;
+      smallMsg.innerHTML =
+        smallMsg.innerHTML === '' ? isEmailValid : smallMsg.innerHTML;
       form.elements.email.classList.remove('valid-state');
       form.elements.email.classList.add('invalid-state');
     } else {
       form.elements.email.classList.add('valid-state');
       form.elements.email.classList.remove('invalid-state');
-      smallMsg.innerHTML = smallMsg.innerHTML === '' ? isEmailValid : smallMsg.innerHTML;
+      smallMsg.innerHTML =
+        smallMsg.innerHTML === '' ? isEmailValid : smallMsg.innerHTML;
     }
     if (!commentsValid[0]) {
-      smallMsg.innerHTML = smallMsg.innerHTML === '' ? isCommentsValid : smallMsg.innerHTML;
+      smallMsg.innerHTML =
+        smallMsg.innerHTML === '' ? isCommentsValid : smallMsg.innerHTML;
       form.elements.msg.classList.remove('valid-state-comments');
       form.elements.msg.classList.add('invalid-state-comments');
     } else {
       form.elements.msg.classList.add('valid-state-comments');
       form.elements.msg.classList.remove('invalid-state-comments');
-      smallMsg.innerHTML = smallMsg.innerHTML === '' ? isCommentsValid : smallMsg.innerHTML;
+      smallMsg.innerHTML =
+        smallMsg.innerHTML === '' ? isCommentsValid : smallMsg.innerHTML;
     }
   }
 });
