@@ -26,7 +26,7 @@ const validateEmail = (email, reqmsg, invmsg) => {
   return [false, reqmsg];
 };
 
-function validateComments(comments, reqmsg, invmsg) {
+const validateComments = (comments, reqmsg, invmsg) => {
   if (comments.length > 0) {
     if (comments.length >= 10 && comments.length <= 512) {
       return [true, ''];
@@ -34,7 +34,7 @@ function validateComments(comments, reqmsg, invmsg) {
     return [false, invmsg];
   }
   return [false, reqmsg];
-}
+};
 
 form.addEventListener('submit', (event) => {
   const nameValid = validateName(
