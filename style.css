@@ -1864,7 +1864,7 @@ ul.social-media2 {
   }
 
   .hamburguer.active {
-    background-image: url('/Img/x-menu.png');
+    background-image: url('assets/desktop/x.svg');
     background-size: contain;
     background-repeat: no-repeat;
     align-self: flex-end;
