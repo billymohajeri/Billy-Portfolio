@@ -6,15 +6,17 @@ let formData = {
   msg: '',
 };
 
-function formInputListens(inputType) {
+const formInputListens = (inputType) => {
   formReloads.elements[inputType].addEventListener('input', () => {
     formData[inputType] = formReloads.elements[inputType].value;
     localStorage.setItem('form-data', JSON.stringify(formData));
   });
-}
+};
 
 const setFormInput = (inputType) => {
-  formReloads.elements[inputType].value = JSON.parse(localStorage['form-data'])[inputType];
+  formReloads.elements[inputType].value = JSON.parse(localStorage['form-data'])[
+    inputType
+  ];
 };
 
 window.addEventListener('load', () => {
