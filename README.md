@@ -132,7 +132,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank...
+I would like to thank all of my code reviewers for giving me constructive feedback.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
