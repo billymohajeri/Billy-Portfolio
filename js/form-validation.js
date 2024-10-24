@@ -8,14 +8,14 @@ const emailInvMsg = 'Email is invalid!';
 const commentsReqMsg = 'What are you trying to say?';
 const commentsInvMsg = 'Your message is too long or too short!';
 
-function validateName(name, reqmsg) {
+const validateName = (name, reqmsg) => {
   if (name.length > 0) {
     return [true, ''];
   }
   return [false, reqmsg];
-}
+};
 
-function validateEmail(email, reqmsg, invmsg) {
+const validateEmail = (email, reqmsg, invmsg) => {
   const emailRegex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@(([[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-z\-0-9]+\.)+[a-z]{2,}))$/;
   if (email.length > 5) {
     if (emailRegex.test(email.trim()) && email.toLowerCase() === email) {
@@ -24,9 +24,9 @@ function validateEmail(email, reqmsg, invmsg) {
     return [false, invmsg];
   }
   return [false, reqmsg];
-}
+};
 
-function validateComments(comments, reqmsg, invmsg) {
+const validateComments = (comments, reqmsg, invmsg) => {
   if (comments.length > 0) {
     if (comments.length >= 10 && comments.length <= 512) {
       return [true, ''];
@@ -34,13 +34,22 @@ function validateComments(comments, reqmsg, invmsg) {
     return [false, invmsg];
   }
   return [false, reqmsg];
-}
+};
 
 form.addEventListener('submit', (event) => {
-  const nameValid = validateName(form.elements['full-name'].value, nameErrorMsg);
-  const emailValid = validateEmail(form.elements.email.value, emailReqMsg, emailInvMsg);
+  const nameValid = validateName(
+    form.elements['full-name'].value,
+    nameErrorMsg,
+  );
+  const emailValid = validateEmail(
+    form.elements.email.value,
+    emailReqMsg,
+    emailInvMsg,
+  );
   const commentsValid = validateComments(
-    form.elements.msg.value, commentsReqMsg, commentsInvMsg,
+    form.elements.msg.value,
+    commentsReqMsg,
+    commentsInvMsg,
   );
   if (nameValid[0] && emailValid[0] && commentsValid[0]) {
     smallMsg.innerHTML = 'Yay, thanks for contacting me!';
@@ -57,7 +66,9 @@ form.addEventListener('submit', (event) => {
     smallMsg.classList.add('unsuccess');
     event.preventDefault();
     const [isNameValid, isEmailValid, isCommentsValid] = [
-      nameValid[1], emailValid[1], commentsValid[1],
+      nameValid[1],
+      emailValid[1],
+      commentsValid[1],
     ];
     if (!nameValid[0]) {
       smallMsg.innerHTML = isNameValid;

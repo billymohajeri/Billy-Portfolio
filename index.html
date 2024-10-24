@@ -12,6 +12,25 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Billy's Portfolio</title>
+    <!-- Matomo -->
+    <script>
+      var _paq = (window._paq = window._paq || []);
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function () {
+        var u = 'https://billymohajeri.matomo.cloud/';
+        _paq.push(['setTrackerUrl', u + 'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d = document,
+          g = d.createElement('script'),
+          s = d.getElementsByTagName('script')[0];
+        g.async = true;
+        g.src = '//cdn.matomo.cloud/billymohajeri.matomo.cloud/matomo.js';
+        s.parentNode.insertBefore(g, s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
   </head>
   <body>
     <nav class="tool-bar">
@@ -39,7 +58,7 @@
       </ul>
     </nav>
 
-    <section class="landing"     id="top">
+    <section class="landing" id="top">
       <div class="content">
         <div class="content-text">
           <h1 class="hello">Hey there.<br />I'm Billy.</h1>
@@ -311,7 +330,7 @@
       </div>
       <div class="button8">
         <a
-          href="https://drive.google.com/file/d/1YK8RF1svlKpjmXI0hs1Ujb00xmYnfh4l/view?usp=sharing"
+          href="https://drive.google.com/file/d/1crvOx1dkpdTTmdOkzRBmM2yyD1IToV23/view?usp=sharing"
           target="_blank"
         >
           <button id="button8" type="button">Get My Resume</button>
@@ -328,10 +347,10 @@
           />
           Languages & Web Development
           <ul class="list">
+            <li class="sub">Java</li>
             <li class="sub">Javascript</li>
             <li class="sub">Ruby</li>
             <li class="sub">Python</li>
-            <li class="sub">C++</li>
             <li class="sub">HTML</li>
             <li class="sub">CSS</li>
           </ul>
@@ -342,7 +361,7 @@
             alt="Frameworks mastered"
             class="symbol"
           />
-          Frameworks
+          Frameworks & Libraries
           <ul class="list">
             <li class="sub">Rails</li>
             <li class="sub">React</li>
@@ -357,10 +376,8 @@
             alt="Skills mastered"
             class="symbol"
           />
-          Skills & Database Management
+          Databases
           <ul class="list">
-            <li class="sub">GitHub</li>
-            <li class="sub">GitLab</li>
             <li class="sub">PostgreSQL</li>
             <li class="sub">MongoDB</li>
             <li class="sub">SQL</li>
