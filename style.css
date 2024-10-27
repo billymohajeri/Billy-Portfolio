@@ -1,8 +1,7 @@
 @font-face {
-  font-family: 'inaimathiregular';
-  src:
-    url('fonts/murasuit-webfont.woff2') format('woff2'),
-    url('fonts/murasuit-webfont.woff') format('woff');
+  font-family: "inaimathiregular";
+  src: url("fonts/murasuit-webfont.woff2") format("woff2"),
+    url("fonts/murasuit-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -40,7 +39,7 @@ a {
   height: 24px;
   left: 12px;
   top: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -108,7 +107,7 @@ a {
   left: 24px;
   top: 120px;
   color: #f55800;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -125,7 +124,7 @@ a {
   width: 327px;
   left: 24px;
   top: 256px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -143,7 +142,7 @@ a {
   height: 123px;
   left: 24px;
   top: 295px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #fff;
@@ -212,7 +211,7 @@ ul {
 
   .item-nav {
     color: #fff;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 15px;
     line-height: 20px;
     font-weight: 600;
@@ -311,7 +310,7 @@ ul {
 }
 
 #work-title {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-size: 40px;
   font-weight: normal;
 }
@@ -338,7 +337,7 @@ ul {
   margin-bottom: 0;
   margin-top: 0;
   padding-left: 20px;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 32px;
@@ -353,7 +352,7 @@ ul {
   padding-left: 20px;
   padding-bottom: 20px;
   margin-top: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   line-height: 24px;
   font-size: 16px;
@@ -376,7 +375,7 @@ ul {
   border: 1px solid #000;
   padding: 10px;
   margin-right: 10px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .button1 {
@@ -388,7 +387,7 @@ ul {
 #button1 {
   background-color: #ff6b00;
   padding: 15px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #fff;
   font-weight: bold;
   border: 0;
@@ -410,7 +409,7 @@ ul {
 .card2 {
   display: grid;
   grid-template-columns: auto;
-  background-image: url('assets/desktop/todo-list-project-desktop.png');
+  background-image: url("assets/desktop/todo-list-project-desktop.png");
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: normal;
@@ -440,7 +439,7 @@ ul {
 
 #p2-title {
   text-align: left;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   color: #fff;
   font-size: 40px;
   line-height: 44px;
@@ -451,7 +450,7 @@ ul {
 
 #p2-text {
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: left;
   width: 300px;
   padding-left: 15px;
@@ -473,7 +472,7 @@ ul {
   padding: 10px;
   margin-right: 10px;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: rgba(255, 255, 255, 0.24);
 }
 
@@ -488,7 +487,7 @@ ul {
 
 #button2 {
   background-color: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #fff;
   font-weight: bold;
   padding-left: 127px;
@@ -523,12 +522,12 @@ ul {
     width: auto;
     display: grid;
     grid-template-areas:
-      'work-title grid-line grid-line'
-      'photo1 photo1 p1-title'
-      'photo1 photo1 p1-text'
-      'photo1 photo1 list-1'
-      'photo1 photo1 button1'
-      'photo1 photo1 .';
+      "work-title grid-line grid-line"
+      "photo1 photo1 p1-title"
+      "photo1 photo1 p1-text"
+      "photo1 photo1 list-1"
+      "photo1 photo1 button1"
+      "photo1 photo1 .";
     height: 100%;
     margin-top: 72px;
     padding-top: 50px;
@@ -620,7 +619,7 @@ ul {
 .card3 {
   display: grid;
   grid-template-columns: auto;
-  background-image: url('assets/desktop/leaderboard_app_screenshot.png');
+  background-image: url("assets/desktop/leaderboard_app_screenshot.png");
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: normal;
@@ -650,7 +649,7 @@ ul {
 
 #p3-title {
   text-align: left;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   color: #fff;
   font-size: 40px;
   line-height: 44px;
@@ -661,7 +660,7 @@ ul {
 
 #p3-text {
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: left;
   width: 300px;
   padding-left: 15px;
@@ -683,7 +682,7 @@ ul {
   padding: 10px;
   margin-right: 10px;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: rgba(255, 255, 255, 0.24);
 }
 
@@ -698,7 +697,7 @@ ul {
 
 #button3 {
   background-color: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #fff;
   font-weight: bold;
   padding-left: 127px;
@@ -731,7 +730,7 @@ ul {
 .card4 {
   display: grid;
   grid-template-columns: auto;
-  background-image: url('assets/desktop/awesome_books_app_screenshot.png');
+  background-image: url("assets/desktop/awesome_books_app_screenshot.png");
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: normal;
@@ -761,7 +760,7 @@ ul {
 
 #p4-title {
   text-align: left;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   color: #fff;
   font-size: 40px;
   line-height: 44px;
@@ -772,7 +771,7 @@ ul {
 
 #p4-text {
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: left;
   width: 300px;
   padding-left: 15px;
@@ -796,7 +795,7 @@ ul {
   padding: 10px;
   margin-right: 10px;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: rgba(255, 255, 255, 0.24);
 }
 
@@ -811,7 +810,7 @@ ul {
 
 #button4 {
   background-color: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #fff;
   font-weight: bold;
   padding-left: 127px;
@@ -844,7 +843,7 @@ ul {
 .card5 {
   display: grid;
   grid-template-columns: auto;
-  background-image: url('assets/desktop/cottage_booking_app_screenshot.png');
+  background-image: url("assets/desktop/cottage_booking_app_screenshot.png");
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: normal;
@@ -874,7 +873,7 @@ ul {
 
 #p5-title {
   text-align: left;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   color: #fff;
   font-size: 40px;
   line-height: 44px;
@@ -885,7 +884,7 @@ ul {
 
 #p5-text {
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: left;
   width: 300px;
   padding-left: 15px;
@@ -907,7 +906,7 @@ ul {
   padding: 10px;
   margin-right: 10px;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: rgba(255, 255, 255, 0.24);
 }
 
@@ -922,7 +921,7 @@ ul {
 
 #button5 {
   background-color: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #fff;
   font-weight: bold;
   padding-left: 127px;
@@ -955,7 +954,7 @@ ul {
 .card6 {
   display: grid;
   grid-template-columns: auto;
-  background-image: url('assets/desktop/star_wars_movies_collection_app_screenshot.png');
+  background-image: url("assets/desktop/star_wars_movies_collection_app_screenshot.png");
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: normal;
@@ -985,7 +984,7 @@ ul {
 
 #p6-title {
   text-align: left;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   color: #fff;
   font-size: 40px;
   line-height: 44px;
@@ -996,7 +995,7 @@ ul {
 
 #p6-text {
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: left;
   width: 300px;
   padding-left: 15px;
@@ -1018,7 +1017,7 @@ ul {
   padding: 10px;
   margin-right: 10px;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: rgba(255, 255, 255, 0.24);
 }
 
@@ -1033,7 +1032,7 @@ ul {
 
 #button6 {
   background-color: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #fff;
   font-weight: bold;
   padding-left: 127px;
@@ -1066,7 +1065,7 @@ ul {
 .card7 {
   display: grid;
   grid-template-columns: auto;
-  background-image: url('assets/desktop/iranian_film_week_2023_app_screenshot.png');
+  background-image: url("assets/desktop/iranian_film_week_2023_app_screenshot.png");
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: normal;
@@ -1096,7 +1095,7 @@ ul {
 
 #p7-title {
   text-align: left;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   color: #fff;
   font-size: 40px;
   line-height: 44px;
@@ -1107,7 +1106,7 @@ ul {
 
 #p7-text {
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   text-align: left;
   font-size: 16px;
   width: 300px;
@@ -1130,7 +1129,7 @@ ul {
   padding: 10px;
   margin-right: 10px;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: rgba(255, 255, 255, 0.24);
 }
 
@@ -1145,7 +1144,7 @@ ul {
 
 #button7 {
   background-color: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #fff;
   font-weight: bold;
   padding-left: 127px;
@@ -1180,7 +1179,8 @@ ul {
     display: grid;
     width: auto;
     height: 100%;
-    grid-template-areas: 'card2 card3 card4' 'card5 card6 card7';
+    
+    grid-template-areas: "card2 card3 card4" "card5 card6 card7";
   }
 
   .card2 {
@@ -1188,13 +1188,12 @@ ul {
     margin: 0;
     justify-self: end;
     margin-bottom: 30px;
-    background:
-      linear-gradient(
+    background: linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
       ),
-      url('assets/desktop/todo-list-project-desktop.png');
+      url("assets/desktop/todo-list-project-desktop.png");
   }
 
   .button2 {
@@ -1206,7 +1205,7 @@ ul {
   }
 
   .card2:hover {
-    background-image: url('assets/desktop/todo-list-project-desktop.png');
+    background-image: url("assets/desktop/todo-list-project-desktop.png");
     background-position: center;
     background-size: 800px;
     background-repeat: no-repeat;
@@ -1220,13 +1219,12 @@ ul {
     grid-area: card3;
     margin: 0;
     justify-self: center;
-    background:
-      linear-gradient(
+    background: linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
       ),
-      url('assets/desktop/leaderboard_app_screenshot.png');
+      url("assets/desktop/leaderboard_app_screenshot.png");
   }
 
   .button3 {
@@ -1238,7 +1236,7 @@ ul {
   }
 
   .card3:hover {
-    background-image: url('assets/desktop/leaderboard_app_screenshot.png');
+    background-image: url("assets/desktop/leaderboard_app_screenshot.png");
     background-position: -15px -140px;
     background-size: 900px;
     background-repeat: no-repeat;
@@ -1252,13 +1250,12 @@ ul {
     grid-area: card4;
     margin: 0;
     justify-self: start;
-    background:
-      linear-gradient(
+    background: linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
       ),
-      url('assets/desktop/awesome_books_app_screenshot.png');
+      url("assets/desktop/awesome_books_app_screenshot.png");
   }
 
   .button4 {
@@ -1270,7 +1267,7 @@ ul {
   }
 
   .card4:hover {
-    background-image: url('assets/desktop/awesome_books_app_screenshot.png');
+    background-image: url("assets/desktop/awesome_books_app_screenshot.png");
     background-position: -130px -50px;
     background-size: 650px;
     background-repeat: no-repeat;
@@ -1284,13 +1281,12 @@ ul {
     grid-area: card5;
     margin: 0;
     justify-self: end;
-    background:
-      linear-gradient(
+    background: linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
       ),
-      url('assets/desktop/cottage_booking_app_screenshot.png');
+      url("assets/desktop/cottage_booking_app_screenshot.png");
     background-size: 2700px;
     background-position: -400px;
   }
@@ -1304,7 +1300,7 @@ ul {
   }
 
   .card5:hover {
-    background-image: url('assets/desktop/cottage_booking_app_screenshot.png');
+    background-image: url("assets/desktop/cottage_booking_app_screenshot.png");
     background-position: 0 0;
     background-size: 650px;
     background-repeat: no-repeat;
@@ -1318,13 +1314,12 @@ ul {
     grid-area: card6;
     margin: 0;
     justify-self: center;
-    background:
-      linear-gradient(
+    background: linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
       ),
-      url('assets/desktop/star_wars_movies_collection_app_screenshot.png');
+      url("assets/desktop/star_wars_movies_collection_app_screenshot.png");
   }
 
   .button6 {
@@ -1336,7 +1331,7 @@ ul {
   }
 
   .card6:hover {
-    background-image: url('assets/desktop/star_wars_movies_collection_app_screenshot.png');
+    background-image: url("assets/desktop/star_wars_movies_collection_app_screenshot.png");
   }
 
   .card6:hover > .grid6 {
@@ -1348,13 +1343,12 @@ ul {
     margin: 0;
     justify-self: start;
     margin-bottom: 100px;
-    background:
-      linear-gradient(
+    background: linear-gradient(
         179.35deg,
         rgba(38, 38, 38, 0) 0.85%,
         rgba(38, 38, 38, 0.9) 84%
       ),
-      url('assets/desktop/iranian_film_week_2023_app_screenshot.png');
+      url("assets/desktop/iranian_film_week_2023_app_screenshot.png");
   }
 
   .button7 {
@@ -1366,7 +1360,7 @@ ul {
   }
 
   .card7:hover {
-    background-image: url('assets/desktop/iranian_film_week_2023_app_screenshot.png');
+    background-image: url("assets/desktop/iranian_film_week_2023_app_screenshot.png");
     background-position: -120px 0;
     background-size: 800px;
     background-repeat: no-repeat;
@@ -1395,7 +1389,7 @@ ul {
 
 #p8-title {
   color: #ff6b00;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-weight: lighter;
   font-size: 80px;
   line-height: 88px;
@@ -1413,7 +1407,7 @@ ul {
   color: #fff;
   padding-left: 20px;
   text-align: left;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   line-height: 30px;
   font-weight: lighter;
@@ -1433,7 +1427,7 @@ ul {
   padding: 12px;
   color: #fff;
   background-color: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 17px;
   font-weight: bold;
   border: 0;
@@ -1490,7 +1484,7 @@ ul {
 
 .card9 {
   width: 100%;
-  height: 1300px;
+  height: 1900px;
   background-image: url(assets/desktop/line.png);
   background-position: center top;
   background-repeat: no-repeat;
@@ -1501,12 +1495,15 @@ ul {
   margin-top: 0;
   text-align: center;
   padding-left: 0;
+}
+
+#front-end{
   padding-top: 95px;
 }
 
 .skill-title {
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 32px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -1521,7 +1518,7 @@ ul {
 .sub {
   padding-top: 15px;
   padding-bottom: 15px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 22px;
   font-weight: lighter;
@@ -1530,7 +1527,7 @@ ul {
 @media screen and (min-width: 768px) {
   .card9 {
     width: auto;
-    height: 600px;
+    height: 1000px;
     background-image: url(assets/desktop/line.png);
     background-position: center top;
     background-size: 1050px 1px;
@@ -1548,7 +1545,7 @@ ul {
 
   .skill-title {
     color: #fff;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 32px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -1563,7 +1560,7 @@ ul {
   .sub {
     padding-top: 15px;
     padding-bottom: 15px;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-size: 22px;
     font-weight: lighter;
@@ -1585,7 +1582,7 @@ footer {
 
 .contact-title {
   font-size: 32px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #172b4d;
   text-align: center;
   font-weight: 700;
@@ -1616,7 +1613,7 @@ footer {
 .input {
   border: 0;
   width: 350px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 24px;
@@ -1637,7 +1634,7 @@ textarea {
   width: 365px;
   border: 0;
   background-color: #fbf8f7;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 17px;
   vertical-align: top;
@@ -1654,7 +1651,7 @@ textarea {
 
 .touch {
   background-color: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   border: 0;
   padding: 20px;
   color: #fff;
@@ -1724,10 +1721,10 @@ ul.social-media2 {
     display: grid;
     width: auto;
     grid-template-areas:
-      'foot-title foot-title form form form'
-      'foot-title foot-title form form form'
-      'foot-title foot-title form form form'
-      'social-2 social-2 social-2 social-2 social-2';
+      "foot-title foot-title form form form"
+      "foot-title foot-title form form form"
+      "foot-title foot-title form form form"
+      "social-2 social-2 social-2 social-2 social-2";
     justify-content: inherit;
   }
 
@@ -1761,11 +1758,11 @@ ul.social-media2 {
   .contact-inputs {
     display: grid;
     grid-template-areas:
-      'full-name full-name full-name full-name'
-      'email email email email'
-      'text1 text1 text1 text1'
-      'text1 text1 text1 text1'
-      'button-li button-li button-li button-li';
+      "full-name full-name full-name full-name"
+      "email email email email"
+      "text1 text1 text1 text1"
+      "text1 text1 text1 text1"
+      "button-li button-li button-li button-li";
     gap: 10px;
     padding-right: 200px;
     padding-left: 0;
@@ -1814,7 +1811,7 @@ ul.social-media2 {
     padding: 12px 15px 12px 15px;
     font-size: 17px;
     font-weight: 700;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #f55800;
   }
 }
@@ -1857,7 +1854,7 @@ ul.social-media2 {
   }
 
   .hamburguer.active {
-    background-image: url('assets/desktop/x.svg');
+    background-image: url("assets/desktop/x.svg");
     background-size: contain;
     background-repeat: no-repeat;
     align-self: flex-end;
@@ -1867,7 +1864,7 @@ ul.social-media2 {
   }
 
   .item-nav2 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 44px;
@@ -1933,7 +1930,7 @@ ul.social-media2 {
   text-align: left;
   width: 94%;
   color: #091e42;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -1963,7 +1960,7 @@ ul.social-media2 {
   height: 36px;
   border: 1px solid #000;
   padding: 10px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background: none;
   margin-right: 12px;
 }
@@ -1980,7 +1977,7 @@ ul.social-media2 {
 }
 
 .cross-menu2 {
-  background-image: url('assets/desktop/x.svg');
+  background-image: url("assets/desktop/x.svg");
   background-size: contain;
   background-repeat: no-repeat;
   width: 16px;
@@ -2016,7 +2013,7 @@ ul.social-media2 {
 @media screen and (min-width: 768px) {
   .preview {
     display: grid;
-    grid-template-areas: 'ptitle ptitle ptitle' 'plangs plangs .' 'pimg pimg ptext' 'pimg pimg ptext' 'pimg pimg pbuttons';
+    grid-template-areas: "ptitle ptitle ptitle" "plangs plangs ." "pimg pimg ptext" "pimg pimg ptext" "pimg pimg pbuttons";
     gap: 0;
     width: fit-content;
     height: 89.253731343%;
@@ -2054,7 +2051,7 @@ ul.social-media2 {
     max-width: 360px;
     grid-row-end: auto;
     font-size: 1.3rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .preview-buttons {
@@ -2068,7 +2065,7 @@ ul.social-media2 {
 }
 
 .form-response {
-  font-family: 'inter', sans-serif;
+  font-family: "inter", sans-serif;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: normal;
